@@ -1,5 +1,7 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:500");
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One:400");
+
 
 /*
 	Identity by HTML5 UP
@@ -155,11 +157,11 @@
 
 	body, input, select, textarea {
 		color: #414f57;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, serif;
 		font-size: 15pt;
 		font-weight: 300;
 		line-height: 2;
-		letter-spacing: 0.2em;
+		letter-spacing: 1px;
 	}
 
 		@media screen and (max-width: 1680px) {
