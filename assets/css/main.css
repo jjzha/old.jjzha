@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:500");
-@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One:400");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+@import url("https://fonts.googleapis.com/css?family=Black+Han+Sans:400");
 
 
 /*
@@ -161,7 +161,7 @@
 		font-size: 15pt;
 		font-weight: 300;
 		line-height: 2;
-		letter-spacing: 1px;
+		letter-spacing: 0.1em;
 	}
 
 		@media screen and (max-width: 1680px) {
