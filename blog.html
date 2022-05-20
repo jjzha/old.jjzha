@@ -21,13 +21,25 @@
         <header>
             <h1 style="font-size: 250%; letter-spacing: 2px;">Blog</h1>
         </header>
-
-        <p>Jump to: [<a href="#test"><u></u></a>]
-        </p>
         <hr>
-        <h1 style="text-align:left" id="test"></h1>
+        <h1 style="text-align:left" id="cal">Active Learning using Data Maps</h1>
         <p style="text-align:left;">
-            Come back later!
+            This is a post for the EMNLP 2021 Findings paper <a href="index.html"><u>Cartography Active Learning</u></a>.
+            <br><br>
+            Commonly used (Deep) Active Learning (AL) algorithms rely on post-training behavior. A model is trained on a small
+            initial seed set and applied to a large pool of unlabeled instances. AL is usually concerned with aleatoric
+            uncertainty, i.e. which data points is the model the most uncertain about after one iteration over the data?
+            A simple example of this is uncertainty sampling (Lewis and Gale, 1994), where the learner simply queries the instance
+            whose posterior probability of being positive/negative is closest to 0.5. In contrast, there is also work to model the
+            learner's uncertainty (epistemic uncertainty), this happens mostly in Neural Networks.
+            A good example of this is Bayesian Active Learning by Disagreement (BALD; Gal and Ghahramani, 2016).
+            This approach entails applying dropout at test time, then estimating uncertainty as the disagreement between
+            outputs realized via multiple passes through a learner.
+            <br><br>
+            We instead propose a novel AL algorithm that exploits the behavior of the model on individual instances
+            during training as a proxy to find the most informative instances for labeling.
+            <br><br>
+            [<a href="posts/cal.html"><u>Read More</u></a>] [<a href="posts/cal.html"><u>Read Paper</u></a>]
         </p>
 
         <hr>
